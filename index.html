@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="overlay" class="overlay-nav">
+            <div onclick="closeNav()" id="closeButton" class="close-button">
+                <svg
+                    fill="#000000"
+                    height="800px"
+                    width="800px"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 460.775 460.775"
+                    xml:space="preserve"
+                >
+                    <path
+                        d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55
+                    c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55
+                    c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505
+                    c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55
+                    l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
+                    c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"
+                    />
+                </svg>
+            </div>
+            <ul class="overlay-links">
+                <li>About Us</li>
+                <li>Gallery</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+            <button>Book an appointment</button>
+        </div>
+        <div class="container">
+            <div class="header">
+                <div class="header-contact">
+                    <p>Need quick cleaning help? +44 8012 8002</p>
+                </div>
+                <div class="navigation">
+                    <div class="left-nav">Cleaner</div>
+                    <div class="middle-nav">
+                        <ul class="nav-links">
+                            <li>About Us</li>
+                            <li>Gallery</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="right-nav">
+                        <button class="book-button first-book-b">
+                            Book an appointment
+                        </button>
+                        <div
+                            onclick="openNav()"
+                            id="openButton"
+                            class="hamburger-menu"
+                        >
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="line-3"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-hero">
+                    <h1>
+                        Professional Cleaning Services in
+                        <span>Oskarshamn</span>
+                    </h1>
+                    <div>
+                        <button class="book-button">Book an appointment</button>
+                        <p>Call us? +44 8012 8002</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <section class="section-1">
+                <div class="main-section">
+                    <div class="main-title">
+                        <p>HIGHEST LEVEL OF SERVICE</p>
+                        <h2>We provide our best cleaning services for you</h2>
+                    </div>
+                    <div class="main-text">
+                        <p>
+                            Our company provides a wide range of cleaning
+                            services, from home cleaning to office cleaning. We
+                            use only advanced technologies to keep your room
+                            looking the best.
+                        </p>
+                        <p>
+                            Our team of experts who have been in the profession
+                            for years focuses on helping you achieve optimal
+                            clean surface.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="service">
+                        <div class="service-image">
+                            <img src="/images/house-cleaning.png" alt="" />
+                        </div>
+                        <div class="service-text">
+                            <h3>House Cleaning</h3>
+                            <p>Discover More</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-image">
+                            <img src="/images/window-cleaning.png" alt="" />
+                        </div>
+                        <div class="service-text">
+                            <h3>House Cleaning</h3>
+                            <p>Discover More</p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-image">
+                            <img src="/images/pest-control.png" alt="" />
+                        </div>
+                        <div class="service-text">
+                            <h3>House Cleaning</h3>
+                            <p>Discover More</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="service-image">
+                            <img src="/images/floor-cleaning.png" alt="" />
+                        </div>
+                        <div class="service-text">
+                            <h3>House Cleaning</h3>
+                            <p>Discover More</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="highest">
+                    <h3>HIGHEST LEVEL OF SERVICE</h3>
+                    <h1>Best cleaning company in the town</h1>
+                    <p>
+                        Our company provides a wide range of cleaning services,
+                        from home cleaning to office cleaning. We use only
+                        advanced technologies to keep your room looking the
+                        best.
+                    </p>
+                    <p>
+                        Our team of experts who have been in the profession for
+                        years focuses on helping you achieve optimal clean
+                        surface.
+                    </p>
+                </div>
+                <div class="experience">
+                    <img
+                        class="cleaning-image"
+                        src="images/cleaning-pic.png"
+                        alt=""
+                    />
+
+                    <div class="experience-text">
+                        <h1>15 Years of experience in the business.</h1>
+                        <p class="experience-title">Services and Guarantees</p>
+                        <p class="experience-paragraph">
+                            We will provide you with the best possible care in
+                            an atmosphere of comfort and compassion.
+                        </p>
+                        <p class="experience-title">Services and Guarantees</p>
+                        <p class="experience-paragraph">
+                            We will provide you with the best possible care in
+                            an atmosphere of comfort and compassion.
+                        </p>
+                        <button class="call-button">
+                            Call us +44-8012-8002
+                        </button>
+                    </div>
+                </div>
+                <div class="clients">
+                    <div class="clients-text">
+                        <p>Clients we worked with</p>
+                    </div>
+                    <div class="clients-logos">
+                        <img src="/images/client1.png" alt="client1" />
+                        <img src="/images/client2.png" alt="client2" />
+                        <img src="/images/client3.png" alt="client3" />
+                        <img src="/images/client1.png" alt="client1" />
+                        <img src="/images/client2.png" alt="client2" />
+                        <img src="/images/client3.png" alt="client3" />
+                        <img src="/images/client1.png" alt="client1" />
+                        <img src="/images/client2.png" alt="client2" />
+                        <img src="/images/client3.png" alt="client3" />
+                        <img src="/images/client1.png" alt="client1" />
+                        <img src="/images/client2.png" alt="client2" />
+                        <img src="/images/client3.png" alt="client3" />
+                        <img src="/images/client1.png" alt="client1" />
+                        <img src="/images/client2.png" alt="client2" />
+                        <img src="/images/client3.png" alt="client3" />
+                        <img src="/images/client1.png" alt="client1" />
+                        <img src="/images/client2.png" alt="client2" />
+                        <img src="/images/client3.png" alt="client3" />
+                        <img src="/images/client1.png" alt="client1" />
+                        <img src="/images/client2.png" alt="client2" />
+                        <img src="/images/client3.png" alt="client3" />
+                        <img src="/images/client1.png" alt="client1" />
+                    </div>
+                </div>
+                <div class="testimonials">
+                    <div class="testimonials-text">
+                        <h2>Testimonials</h2>
+                        <p>
+                            Our company provides a wide range of cleaning
+                            services, from home cleaning to office cleaning. We
+                            use only advanced technologies to keep your room
+                            looking the best.
+                        </p>
+                    </div>
+                    <div class="test-cards">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-img">
+                                    <img src="/images/profile-pic.png" alt="" />
+                                </div>
+                                <div class="profile-info">
+                                    <p>Jacky Tan</p>
+                                    <p>CTO at CompanyName</p>
+                                </div>
+                            </div>
+                            <div class="card-description">
+                                <p>
+                                    Working with Manoj is a no-brainer. Not only
+                                    do you get a hard working developer, you
+                                    also get a partner who will give you advice
+                                    and is pragmatic. He has saved me hours of
+                                    technical work so I can focus on driving
+                                    sales.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-img">
+                                    <img src="/images/profile-pic.png" alt="" />
+                                </div>
+                                <div class="profile-info">
+                                    <p>Jacky Tan</p>
+                                    <p>CTO at CompanyName</p>
+                                </div>
+                            </div>
+                            <div class="card-description">
+                                <p>
+                                    Working with Manoj is a no-brainer. Not only
+                                    do you get a hard working developer, you
+                                    also get a partner who will give you advice
+                                    and is pragmatic. He has saved me hours of
+                                    technical work so I can focus on driving
+                                    sales.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-img">
+                                    <img src="/images/profile-pic.png" alt="" />
+                                </div>
+                                <div class="profile-info">
+                                    <p>Jacky Tan</p>
+                                    <p>CTO at CompanyName</p>
+                                </div>
+                            </div>
+                            <div class="card-description">
+                                <p>
+                                    Working with Manoj is a no-brainer. Not only
+                                    do you get a hard working developer, you
+                                    also get a partner who will give you advice
+                                    and is pragmatic. He has saved me hours of
+                                    technical work so I can focus on driving
+                                    sales.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <img
+                        style="
+                            width: 100%;
+                            position: absolute;
+                            object-fit: fill;
+                            top: 0px;
+
+                            max-width: 100%;
+
+                            z-index: -1;
+                        "
+                        src="/images/Frame 186.png"
+                        alt=""
+                    />
+                    <p>Request an inquiry</p>
+                    <form action="https://submit-form.com/Z5IP2fcRi">
+                        <div class="first-inputs">
+                            <div class="input-container">
+                                <label for="fullName">Fullname</label>
+                                <input
+                                    name="fullName"
+                                    type="text"
+                                    placeholder="Full Name"
+                                />
+                            </div>
+                            <div class="input-container">
+                                <label for="emailAddress">Email Address</label>
+                                <input
+                                    name="emailAddress"
+                                    type="email"
+                                    placeholder="Email Adress"
+                                />
+                            </div>
+                        </div>
+                        <div class="second-input">
+                            <div class="input-container">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input
+                                    type="number"
+                                    placeholder="+41"
+                                    name="phoneNumber"
+                                />
+                            </div>
+                            <div class="input-container">
+                                <label for="otherField">Other Field</label>
+                                <input
+                                    name="otherField"
+                                    type="text"
+                                    placeholder="Some Other Field"
+                                />
+                            </div>
+                        </div>
+                        <div
+                            style="
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                            "
+                        >
+                            <label for="select-service"
+                                >Select your service</label
+                            >
+                            <select
+                                id="select"
+                                name="select-service"
+                                id="select-service"
+                            >
+                                <option value="">Select your service</option>
+                                <option value="house-cleaning">
+                                    House Cleaning
+                                </option>
+                                <option value="car-cleaning">
+                                    Car Cleaning
+                                </option>
+                                <option value="room-cleaning">
+                                    Room Cleaning
+                                </option>
+                                <option value="window-cleaning">
+                                    Window Cleaning
+                                </option>
+                            </select>
+                        </div>
+                        <div class="window-form" id="window-form">
+                            <div id="window-grid-div" class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option1"
+                                    name="options"
+                                    value="option1"
+                                />
+                                <label class="option-box" for="option1">
+                                    <img src="/images/23x52.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                            <div class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option2"
+                                    name="options"
+                                    value="option2"
+                                />
+                                <label class="option-box" for="option2">
+                                    <img src="/images/23x52.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                            <div class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option3"
+                                    name="options"
+                                    value="option3"
+                                />
+                                <label class="option-box" for="option3">
+                                    <img src="/images/23x52.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                            <div class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option4"
+                                    name="options"
+                                    value="option4"
+                                />
+                                <label class="option-box" for="option4">
+                                    <img src="/images/23x52.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                            <div class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option5"
+                                    name="options"
+                                    value="option5"
+                                />
+                                <label class="option-box" for="option5">
+                                    <img src="/images/window4.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                            <div class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option6"
+                                    name="options"
+                                    value="option6"
+                                />
+                                <label class="option-box" for="option6">
+                                    <img src="/images/window3.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                            <div class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option7"
+                                    name="options"
+                                    value="option7"
+                                />
+                                <label class="option-box" for="option7">
+                                    <img src="/images/window2.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                            <div class="window-grid-div">
+                                <input
+                                    type="radio"
+                                    id="option8"
+                                    name="options"
+                                    value="option8"
+                                />
+                                <label class="option-box" for="option8">
+                                    <img src="/images/23x52.png" />
+                                    <p>Window Type</p>
+                                    <p>23x52cm</p>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button class="submit-button" type="submit">
+                            Send Inquiry
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footeri">
+                <img src="/images/footeri.png" alt="" />
+                <p>
+                    Professional cleaning services using innovative technology.
+                </p>
+            </div>
+            <div class="footeri-2">
+                <p>© 2024. All Rights Reserved</p>
+            </div>
+        </footer>
+        <script>
+            const selectElement = document.getElementById("select");
+            const windowForm = document.getElementById("window-form");
+
+            const parentDiv = document.getElementById("window-grid-div");
+            const radios = document.querySelectorAll('input[name="options"]');
+
+            const elementToStyle = document.getElementById("overlay");
+            const closeButton = document.getElementById("closeButton");
+            const openButton = document.getElementById("openButton");
+
+            selectElement.addEventListener("change", function () {
+                if (this.value === "window-cleaning") {
+                    windowForm.classList.add("selected");
+                } else {
+                    windowForm.classList.remove("selected");
+                }
+            });
+
+            function closeNav() {
+                elementToStyle.classList.remove("active-overlay");
+            }
+            function openNav() {
+                elementToStyle.classList.toggle("active-overlay");
+                console.log("hello");
+            }
+        </script>
+    </body>
+</html>
