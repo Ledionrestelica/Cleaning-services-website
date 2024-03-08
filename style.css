@@ -482,7 +482,7 @@ footer {
     .footeri {
         flex-direction: column;
     }
-    .footeri-2 p {
+    .footeri > p {
         text-align: center;
     }
 }
