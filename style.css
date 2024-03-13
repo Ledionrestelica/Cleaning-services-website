@@ -489,6 +489,9 @@ footer {
     .footeri > p {
         text-align: center;
     }
+    .footeri-2 p{
+        text-align: center ;
+    }
 }
 @media (max-width: 762px) {
     .experience-text {
