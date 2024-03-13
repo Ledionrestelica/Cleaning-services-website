@@ -497,6 +497,24 @@ footer {
     .window-form {
         grid-template-columns: repeat(2, 1fr);
     }
+    .header-contact {
+        text-align: center;
+    }
+    .navigation {
+        justify-content: space-between;
+    }
+    .footeri-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .services {
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        background-repeat: repeat-y;
+    }
 }
 .form-container {
     display: flex;
