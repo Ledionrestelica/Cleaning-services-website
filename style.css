@@ -415,9 +415,12 @@ footer {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     font-weight: 400;
     font-size: 16px;
+}
+.overlay-links li {
+    font-size: 24px;
 }
 .overlay-nav button {
     padding: 12px 24px;
@@ -536,7 +539,7 @@ footer {
     display: flex;
     position: relative;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
     max-width: 1440px;
     justify-content: center;

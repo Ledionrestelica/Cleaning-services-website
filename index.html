@@ -304,6 +304,8 @@
                                     name="fullName"
                                     type="text"
                                     placeholder="Full Name"
+                                    id="fullName"
+                                    required
                                 />
                             </div>
                             <div class="input-container">
@@ -312,6 +314,8 @@
                                     name="emailAddress"
                                     type="email"
                                     placeholder="Email Adress"
+                                    id="emailAddress"
+                                    required
                                 />
                             </div>
                         </div>
@@ -322,14 +326,18 @@
                                     type="number"
                                     placeholder="+41"
                                     name="phoneNumber"
+                                    id="phoneNumber"
+                                    required
                                 />
                             </div>
                             <div class="input-container">
                                 <label for="otherField">Other Field</label>
                                 <input
                                     name="otherField"
+                                    id="otherField"
                                     type="text"
                                     placeholder="Some Other Field"
+                                    required
                                 />
                             </div>
                         </div>
@@ -345,8 +353,9 @@
                             >
                             <select
                                 id="select"
-                                name="select-service"
+                                name="select-service1"
                                 id="select-service"
+                                required
                             >
                                 <option value="">Select your service</option>
                                 <option value="house-cleaning">
@@ -369,7 +378,7 @@
                                     <input
                                         type="radio"
                                         id="option1"
-                                        name="options"
+                                        name="window1"
                                         value="option1"
                                     />
                                 </div>
@@ -385,7 +394,7 @@
                                     <input
                                         type="radio"
                                         id="option2"
-                                        name="options"
+                                        name="window2"
                                         value="option2"
                                     />
                                 </div>
@@ -401,7 +410,7 @@
                                     <input
                                         type="radio"
                                         id="option3"
-                                        name="options"
+                                        name="window3"
                                         value="option3"
                                     />
                                 </div>
@@ -417,7 +426,7 @@
                                     <input
                                         type="radio"
                                         id="option4"
-                                        name="options"
+                                        name="window4"
                                         value="option4"
                                     />
                                 </div>
@@ -433,7 +442,7 @@
                                     <input
                                         type="radio"
                                         id="option5"
-                                        name="options"
+                                        name="window5"
                                         value="option5"
                                     />
                                 </div>
@@ -449,7 +458,7 @@
                                     <input
                                         type="radio"
                                         id="option6"
-                                        name="options"
+                                        name="window6"
                                         value="option6"
                                     />
                                 </div>
@@ -465,7 +474,7 @@
                                     <input
                                         type="radio"
                                         id="option7"
-                                        name="options"
+                                        name="window7"
                                         value="option7"
                                     />
                                 </div>
@@ -481,7 +490,7 @@
                                     <input
                                         type="radio"
                                         id="option8"
-                                        name="options"
+                                        name="window8"
                                         value="option8"
                                     />
                                 </div>
@@ -513,30 +522,30 @@
             </div>
         </footer>
         <script>
-            const selectElement = document.getElementById("select");
-            const windowForm = document.getElementById("window-form");
+            const selectElement = document.getElementById('select')
+            const windowForm = document.getElementById('window-form')
 
-            const parentDiv = document.getElementById("window-grid-div");
-            const radios = document.querySelectorAll('input[name="options"]');
+            const parentDiv = document.getElementById('window-grid-div')
+            const radios = document.querySelectorAll('input[name="options"]')
 
-            const elementToStyle = document.getElementById("overlay");
-            const closeButton = document.getElementById("closeButton");
-            const openButton = document.getElementById("openButton");
+            const elementToStyle = document.getElementById('overlay')
+            const closeButton = document.getElementById('closeButton')
+            const openButton = document.getElementById('openButton')
 
-            selectElement.addEventListener("change", function () {
-                if (this.value === "window-cleaning") {
-                    windowForm.classList.add("selected");
+            selectElement.addEventListener('change', function () {
+                if (this.value === 'window-cleaning') {
+                    windowForm.classList.add('selected')
                 } else {
-                    windowForm.classList.remove("selected");
+                    windowForm.classList.remove('selected')
                 }
-            });
+            })
 
             function closeNav() {
-                elementToStyle.classList.remove("active-overlay");
+                elementToStyle.classList.remove('active-overlay')
             }
             function openNav() {
-                elementToStyle.classList.toggle("active-overlay");
-                console.log("hello");
+                elementToStyle.classList.toggle('active-overlay')
+                console.log('hello')
             }
         </script>
     </body>
