@@ -62,9 +62,11 @@ body {
 }
 .nav-links li {
     float: right;
+    cursor: pointer;
 }
 
 .book-button {
+    cursor: pointer;
     outline: none;
     border: none;
     border-radius: 26px;
@@ -191,6 +193,7 @@ main {
 }
 .service {
     min-width: 100px;
+    cursor: pointer;
 }
 .service-image img {
     width: 56px;
@@ -421,6 +424,7 @@ footer {
 }
 .overlay-links li {
     font-size: 24px;
+    cursor: pointer;
 }
 .overlay-nav button {
     padding: 12px 24px;
@@ -644,4 +648,7 @@ form select:active {
     .active-overlay {
         display: none;
     }
+}
+html {
+    scroll-behavior: smooth;
 }

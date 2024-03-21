@@ -42,7 +42,7 @@
                 <li>About Us</li>
                 <li>Gallery</li>
                 <li>Blog</li>
-                <li>Contact</li>
+                <li onclick="location.href='contact.html'">Contact</li>
             </ul>
             <button>Book an appointment</button>
         </div>
@@ -52,19 +52,26 @@
                     <p>Need quick cleaning help? +44 8012 8002</p>
                 </div>
                 <div class="navigation">
-                    <div class="left-nav">Cleaner</div>
+                    <div onclick="location.href='index.html'" class="left-nav">
+                        Cleaner
+                    </div>
                     <div class="middle-nav">
                         <ul class="nav-links">
                             <li>About Us</li>
                             <li>Gallery</li>
                             <li>Blog</li>
-                            <li>Contact</li>
+                            <li onclick="location.href='contact.html'">
+                                Contact
+                            </li>
                         </ul>
                     </div>
                     <div class="right-nav">
-                        <button class="book-button first-book-b">
-                            Book an appointment
-                        </button>
+                        <a href="#fullName">
+                            <button class="book-button first-book-b">
+                                Book an appointment
+                            </button></a
+                        >
+
                         <div
                             onclick="openNav()"
                             id="openButton"
@@ -82,7 +89,12 @@
                         <span>Oskarshamn</span>
                     </h1>
                     <div>
-                        <button class="book-button">Book an appointment</button>
+                        <button
+                            onclick="location.href='#fullName'"
+                            class="book-button"
+                        >
+                            Book an appointment
+                        </button>
                         <p>Call us? +44 8012 8002</p>
                     </div>
                 </div>
@@ -120,7 +132,10 @@
                             <p>Discover More</p>
                         </div>
                     </div>
-                    <div class="service">
+                    <div
+                        onclick="location.href='house-cleaning.html'"
+                        class="service"
+                    >
                         <div class="service-image">
                             <img src="/images/window-cleaning.png" alt="" />
                         </div>
