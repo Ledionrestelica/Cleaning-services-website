@@ -261,6 +261,7 @@ main {
 .clients-logos img {
     margin-right: 20px;
     object-fit: contain;
+    width: 120px;
 }
 .clients-text {
     font-size: 14px;
