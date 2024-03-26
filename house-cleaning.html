@@ -41,9 +41,7 @@
                 </svg>
             </div>
             <ul class="overlay-links">
-                <li>Om oss</li>
                 <li>Galleri</li>
-                <li>Blogg</li>
                 <li onclick="location.href='contact.html'">Kontakt</li>
             </ul>
             <button onclick="location.href='#fullName', closeNav()">
@@ -52,7 +50,10 @@
         </div>
         <div class="header">
             <div class="header-contact">
-                <p>Behöver du snabb städhjälp? +44 8012 8002</p>
+                <p>
+                    Är du i behov av städhjälp? Ring oss på 0491-33 330 /
+                    070-736 91 40
+                </p>
             </div>
             <div class="navigation">
                 <div onclick="location.href='index.html'" class="left-nav">
@@ -60,9 +61,8 @@
                 </div>
                 <div class="middle-nav">
                     <ul class="nav-links">
-                        <li>Om oss</li>
                         <li>Galleri</li>
-                        <li>Blogg</li>
+
                         <li onclick="location.href='contact.html'">Kontakt</li>
                     </ul>
                 </div>
@@ -90,7 +90,7 @@
                 <p class="subtitle-p blue-text">SERVICE</p>
                 <h1 class="subtitle-h1">Storstäd</h1>
             </div>
-            <img class="hero-picture" src="images/heropic.png" alt="" />
+            <img class="hero-picture" src="images/cleaning-house.jpg" alt="" />
             <div class="main-section">
                 <div class="main-title">
                     <p>HÖGSTA MÖJLIGA SERVICENIVÅ</p>
@@ -119,291 +119,203 @@
                     </ul>
                 </div>
             </div>
-            <div class="testimonials">
-                <div class="testimonials-text">
-                    <h2>Rekommendationer</h2>
-                    <p>
-                        Vårt företag tillhandahåller ett brett utbud av
-                        rengöring tjänster, från hemstädning till
-                        kontorsstädning. Vi använd endast avancerad teknik för
-                        att underhålla ditt rum ser bäst ut.
-                    </p>
-                </div>
-                <div class="test-cards">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-img">
-                                <img
-                                    style="width: 50px; border-radius: 50%"
-                                    src="/images/pfp-anonim.png"
-                                    alt=""
-                                />
-                            </div>
-                            <div class="profile-info">
-                                <p>Lena Björstedt</p>
-                                <p>Customer</p>
-                            </div>
-                        </div>
-                        <div class="card-description">
-                            <p>
-                                Masoud, du är bara bäst. Fick hjälp i en svår
-                                situation i livet. Med kort varsel ställde du
-                                upp, städade min systers lägenhet och du fick
-                                högsta betyg när hyresvärden inspekterade den.
-                                Tusen tack Masoud, fortsätt så här och du har
-                                gott om jobb i framtiden.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-img">
-                                <img
-                                    style="width: 50px; border-radius: 50%"
-                                    src="/images/pfp-anonim.png"
-                                    alt=""
-                                />
-                            </div>
-                            <div class="profile-info">
-                                <p>Åss Svensson</p>
-                                <p>Customer</p>
-                            </div>
-                        </div>
-                        <div class="card-description">
-                            <p>
-                                Så nöjda. Både flyttstädning och senare även
-                                fönsterputsning har varit perfekt! Trevligt
-                                bemötande, snabb återkoppling vid kontakt,
-                                noggranna. Ja, helt enkelt högsta betyg⭐
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-img">
-                                <img
-                                    style="width: 50px; border-radius: 50%"
-                                    src="/images/pfp-anonim.png"
-                                    alt=""
-                                />
-                            </div>
-                            <div class="profile-info">
-                                <p>Louise Olsen</p>
-                                <p>Customer</p>
-                            </div>
-                        </div>
-                        <div class="card-description">
-                            <p>
-                                Är supernöjd med flyttstädningen! Trevligt
-                                bemötande, snabb kommunikation och inget
-                                krångel. Skulle definitivt anlita igen! 🌟
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="form-container">
-                <p>Få kostnadsfri offert</p>
-                <form action="https://submit-form.com/Z5IP2fcRi">
-                    <div class="first-inputs">
-                        <div class="input-container">
-                            <label for="fullName">För & Efternamn</label>
-                            <input
-                                name="fullName"
-                                type="text"
-                                placeholder="Full Name"
-                                id="fullName"
-                                required
-                            />
-                        </div>
-                        <div class="input-container">
-                            <label for="emailAddress">E-postadress</label>
-                            <input
-                                name="emailAddress"
-                                type="email"
-                                placeholder="Email Adress"
-                                id="emailAddress"
-                                required
-                            />
-                        </div>
-                    </div>
-                    <div class="second-input">
-                        <div class="input-container">
-                            <label for="phoneNumber">Mobilnummer</label>
-                            <input
-                                type="number"
-                                placeholder="+41"
-                                name="phoneNumber"
-                                id="phoneNumber"
-                                required
-                            />
-                        </div>
-                        <div class="input-container">
-                            <label for="otherField">Meddelande</label>
-                            <input
-                                name="otherField"
-                                id="otherField"
-                                type="text"
-                                placeholder="Some Other Field"
-                                required
-                            />
-                        </div>
-                    </div>
-                    <div
-                        style="display: flex; flex-direction: column; gap: 10px"
-                    >
-                        <label for="select-service">Välj Städtjänst</label>
-                        <select
-                            id="select"
-                            name="select-service1"
-                            id="select-service"
+        </div>
+        <div class="form-container">
+            <p>Få kostnadsfri offert</p>
+            <form action="https://submit-form.com/Z5IP2fcRi">
+                <div class="first-inputs">
+                    <div class="input-container">
+                        <label for="fullName">För & Efternamn</label>
+                        <input
+                            name="fullName"
+                            type="text"
+                            placeholder="Fullständigt namn"
+                            id="fullName"
                             required
-                        >
-                            <option value="">Select your service</option>
-                            <option value="house-cleaning">
-                                House Cleaning
-                            </option>
-                            <option value="car-cleaning">Car Cleaning</option>
-                            <option value="room-cleaning">Room Cleaning</option>
-                            <option value="window-cleaning">
-                                Window Cleaning
-                            </option>
-                        </select>
+                        />
                     </div>
-                    <div class="window-form" id="window-form">
-                        <div id="window-grid-div" class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option1"
-                                    name="window1"
-                                    value="option1"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option1">
-                                <img src="/images/23x52.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
-                        <div class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option2"
-                                    name="window2"
-                                    value="option2"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option2">
-                                <img src="/images/23x52.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
-                        <div class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option3"
-                                    name="window3"
-                                    value="option3"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option3">
-                                <img src="/images/23x52.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
-                        <div class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option4"
-                                    name="window4"
-                                    value="option4"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option4">
-                                <img src="/images/23x52.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
-                        <div class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option5"
-                                    name="window5"
-                                    value="option5"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option5">
-                                <img src="/images/window4.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
-                        <div class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option6"
-                                    name="window6"
-                                    value="option6"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option6">
-                                <img src="/images/window3.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
-                        <div class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option7"
-                                    name="window7"
-                                    value="option7"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option7">
-                                <img src="/images/window2.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
-                        <div class="window-grid-div">
-                            <div class="input-flex">
-                                <input
-                                    type="radio"
-                                    id="option8"
-                                    name="window8"
-                                    value="option8"
-                                />
-                            </div>
-
-                            <label class="option-box" for="option8">
-                                <img src="/images/23x52.png" />
-                                <p class="window-type">Window Type</p>
-                                <p class="dimensions">23x52cm</p>
-                            </label>
-                        </div>
+                    <div class="input-container">
+                        <label for="emailAddress">E-postadress</label>
+                        <input
+                            name="emailAddress"
+                            type="email"
+                            placeholder="Email Adress"
+                            id="emailAddress"
+                            required
+                        />
                     </div>
+                </div>
+                <div class="second-input">
+                    <div class="input-container">
+                        <label for="phoneNumber">Mobilnummer</label>
+                        <input
+                            type="number"
+                            placeholder="+46"
+                            name="phoneNumber"
+                            id="phoneNumber"
+                            required
+                        />
+                    </div>
+                    <div class="input-container">
+                        <label for="otherField">Meddelande</label>
+                        <input
+                            name="message"
+                            id="otherField"
+                            type="text"
+                            placeholder="Meddelande"
+                            required
+                        />
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px">
+                    <label for="select-service">Välj Städtjänst</label>
+                    <select
+                        id="select"
+                        name="select-service1"
+                        id="select-service"
+                        required
+                    >
+                        <option value="">Välj Städtjänst</option>
+                        <option value="house-cleaning">Storstäd</option>
+                        <option value="car-cleaning">Flyttstäd</option>
+                        <option value="room-cleaning">Kontorsstäd</option>
+                        <option value="window-cleaning">Fönsterputs</option>
+                        <option value="Byggstäd">Byggstäd</option>
+                    </select>
+                </div>
+                <div class="window-form" id="window-form">
+                    <div id="window-grid-div" class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option1"
+                                name="window1"
+                                value="option1"
+                            />
+                        </div>
 
-                    <button class="submit-button" type="submit">Skicka</button>
-                </form>
-            </div>
+                        <label class="option-box" for="option1">
+                            <img src="/images/23x52.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                    <div class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option2"
+                                name="window2"
+                                value="option2"
+                            />
+                        </div>
+
+                        <label class="option-box" for="option2">
+                            <img src="/images/23x52.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                    <div class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option3"
+                                name="window3"
+                                value="option3"
+                            />
+                        </div>
+
+                        <label class="option-box" for="option3">
+                            <img src="/images/23x52.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                    <div class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option4"
+                                name="window4"
+                                value="option4"
+                            />
+                        </div>
+
+                        <label class="option-box" for="option4">
+                            <img src="/images/23x52.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                    <div class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option5"
+                                name="window5"
+                                value="option5"
+                            />
+                        </div>
+
+                        <label class="option-box" for="option5">
+                            <img src="/images/window4.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                    <div class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option6"
+                                name="window6"
+                                value="option6"
+                            />
+                        </div>
+
+                        <label class="option-box" for="option6">
+                            <img src="/images/window3.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                    <div class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option7"
+                                name="window7"
+                                value="option7"
+                            />
+                        </div>
+
+                        <label class="option-box" for="option7">
+                            <img src="/images/window2.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                    <div class="window-grid-div">
+                        <div class="input-flex">
+                            <input
+                                type="radio"
+                                id="option8"
+                                name="window8"
+                                value="option8"
+                            />
+                        </div>
+
+                        <label class="option-box" for="option8">
+                            <img src="/images/23x52.png" />
+                            <p class="window-type">Window Type</p>
+                            <p class="dimensions">23x52cm</p>
+                        </label>
+                    </div>
+                </div>
+
+                <button class="submit-button" type="submit">Skicka</button>
+            </form>
         </div>
         <footer>
             <div class="footeri">
