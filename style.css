@@ -510,6 +510,7 @@ footer {
         padding: 20px;
         padding-bottom: 30px;
     }
+
     .experience-text h1 {
         line-height: 120%;
     }
@@ -532,7 +533,9 @@ footer {
         gap: 40px;
     }
     .container {
-        background-repeat: repeat-y;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
     }
     .main-title h2 {
         font-size: 38px;
